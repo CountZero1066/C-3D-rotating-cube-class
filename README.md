@@ -16,13 +16,10 @@ A lightweight C++ class designed for rendering and animating a 3D wireframe cube
 ## Software Structure
 The Cube3D class encapsulates the logic for rendering a 3D cube and updating its rotation. It includes the following key methods:
 Cube3D(TFT_eSPI &display, int centerX, int centerY, int sideLength)
-- Constructor that initializes the cube’s center position, size, and display reference.
-void update()
-- Handles rotation updates and rendering.
-void drawCube(uint16_t color)
-- Renders the cube with the specified color.
-void erasePreviousFrame()
-- Clears the previous cube position using a dynamically calculated circle.
+- {Cube3D(TFT_eSPI &display, int centerX, int centerY, int sideLength)} Constructor that initializes the cube’s center position, size, and display reference.
+- {void update()} Handles rotation updates and rendering.
+- {void drawCube(uint16_t color)} Renders the cube with the specified color.
+- {void erasePreviousFrame()} Clears the previous cube position using a dynamically calculated circle.
 
 ## Implementation Example
 To integrate Cube3D into your project, below is a basic implementation. The example initializes the display, creates a Cube3D instance, and continuously updates the cube rotation in the loop.
