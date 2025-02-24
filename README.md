@@ -1,5 +1,6 @@
 # C++ 3D rotating cube class
 Class for drawing a rotating 3D cube on a ST7735 display with a flexible implementation 
+
 ![ezgif-6ae366bdc1b501-ezgif com-resize](https://github.com/user-attachments/assets/706bb76b-86f1-48e1-96d5-3174236a2283)
 
 ##Overview
@@ -25,6 +26,7 @@ void erasePreviousFrame()
 
 ##Implementation Example
 To integrate Cube3D into your project, below is a basic implementation. The example initializes the display, creates a Cube3D instance, and continuously updates the cube rotation in the loop.
+
 ![example pseduo code](https://github.com/user-attachments/assets/5369cb63-ef68-4def-90b2-047711833657)
 
 ##Potential Future Improvements
